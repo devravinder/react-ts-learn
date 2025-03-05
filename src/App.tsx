@@ -11,10 +11,16 @@ import State from './core/State'
 import ManageState from './core/ManageState'
 import ResetState from './core/ResetState'
 
+
+
+//====================
+import Q1 from './interview/Q1'
+import Q2 from './interview/Q2'
+
 export default function App() {
   return (
     <div>
-      <ReRenderQ2/>
+      <Q1/>
     </div>
   )
 }
