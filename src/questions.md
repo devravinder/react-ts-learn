@@ -28,7 +28,9 @@ Special functions
    
 
 
-Advantage of functional component?
+Advantage of functional component? over class based components ?
+
+What HOC ( Higher Order Component )?
 
 why we have to use useState / state instead of normal variables?
 
@@ -53,20 +55,31 @@ why we need to use redux/any...instead of context
 what us CORS issue? where it occurs?
 
 How to pass props from child to parent? / how to access child's state/functions from parent?
+                    - calls back functions
+                    - central storage
+                    - useImperativeHandle & forwardRef
 
 Whar are portals? What are use cases?  (createPortal)
-
+            - to use modals & popups
+            - to add react-functionality in existing non-react applications
 
 Expirence Test:-
 How are handling authentication  & authorization?
+            - how are hanlding tokens
+            - CSRF & XSS  what are they & how to seure
+                                  CSRF - http only header
+                                  XSS - CSP header
+  
 have you worked with TS?
 have you ever tried ...to create dynamic forms? What are the challenges you may/have faced?
-have you used any form libraries? Formik, react-hook-form?
+                    - formIO library
+have you used any form libraries? Formik, react-hook-form **?
 how do you handling the re-render issue...if many fields exists in one objcet?
 what are some challenging tasks you accomplished?
 Micro frontends?
 Nginx config?
 Why we have to clear Timers while component unmounting?
+              - to avoid memory leak
 
 
 What will look for...while doing code review?
