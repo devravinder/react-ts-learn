@@ -11,7 +11,8 @@ export default function App() {
 
     /* 
      why 'clicks' is not getting increamnet?
-     How to fix it?
+     How to fix it?  increemanet clicks
+         - you can use any hook ...other than useState or useReducer
     */
   };
 
