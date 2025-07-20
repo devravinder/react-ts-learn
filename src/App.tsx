@@ -5,6 +5,9 @@ import ReRenderQ from './basic/4_ReRender_Q'
 import ReRenderQ2 from './basic/4_0_ReRender_Q'
 import ChildStateQ from './basic/5_ChildState_Q'
 import ChildStateS from './basic/5_ChildState_S'
+import EventTarget from './basic/6_EventTarget_Q'
+import Reducer from './basic/7_Reducer_S'
+
 
 //=======================
 import State from './core/State'
@@ -20,7 +23,7 @@ import Q2 from './interview/Q2'
 export default function App() {
   return (
     <div>
-      <Q2/>
+      <Reducer/>
     </div>
   )
 }
