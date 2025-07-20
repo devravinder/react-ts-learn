@@ -20,7 +20,7 @@ import Q2 from './interview/Q2'
 export default function App() {
   return (
     <div>
-      <FieldsQ/>
+      <Q2/>
     </div>
   )
 }

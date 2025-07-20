@@ -13,6 +13,7 @@ export default function State() {
         setNumber(number + 1)
         setNumber(number + 1)
     }
+    
 
     const onClick2 = () => {
         setNumber(number + 5);
@@ -24,6 +25,12 @@ export default function State() {
         setTimeout(() => {
           alert(number);
         }, 3000);
+    }
+
+    const onClick4 = () => {
+        setNumber(number => number + 1)
+        setNumber(number => number + 1)
+        setNumber(number => number + 1)
     }
 
 
@@ -44,6 +51,11 @@ export default function State() {
                     onClick={onClick3}
                     className="bg-blue-500 text-white py-2 px-4 rounded-md"
                 > Timeout-Alert-Button (+5)</button>
+
+                <button
+                    onClick={onClick4}
+                    className="bg-blue-500 text-white py-2 px-4 rounded-md"
+                > Button (+1)*3</button>
             </div>
         </div>
     )

@@ -24,10 +24,19 @@ export default function ManageState() {
     return (
         <div className="max-w-sm mx-auto my-16">
             <div className="flex flex-col gap-3">
+
+                {/* Same compoenet at the same place, preserves the state */}
+                {/*  this is one statement */}
                 {fancy ? <Counter fancery={true} /> : <Counter fancery={false} />}
 
+
+
+        
+                {/* different component at the same position resets the state */}
+                {/* these are two different statements */}
                 {fancy && <Counter fancery={true} /> }{!fancy && <Counter fancery={false} />}
 
+                {/* different component at the same position resets the state ( wrapped with div ) */}
                 {fancy ? <Counter fancery={true} /> : <div><Counter fancery={false} /></div> }
 
                 <div className="w-full flex flex-row gap-4 px-4">
