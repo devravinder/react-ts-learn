@@ -19,11 +19,12 @@ import ResetState from './core/ResetState'
 //====================
 import Q1 from './interview/Q1'
 import Q2 from './interview/Q2'
+import Q3 from './interview/Q3'
 
 export default function App() {
   return (
     <div>
-      <Reducer/>
+      <Q3/>
     </div>
   )
 }
