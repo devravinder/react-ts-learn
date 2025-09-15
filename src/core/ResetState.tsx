@@ -11,6 +11,8 @@ import { useState } from "react";
    2. without creating a new component
    3. without changing the component position
 
+ Solution: see hint.md
+
 */
 
 function Counter({ fancery }: { fancery?: boolean }) {

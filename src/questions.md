@@ -1,23 +1,23 @@
-Basic:-
-What is hoisting
+### Basic:-
+What is hoisting  
 let vs var
 
-Medium:-
-How virtual dom improves perfomance?
-Hooks, What are the hooks you have used so far?
-   useState
-   useEffect
-   useRef
-   useCallback
-   useMemo
-   useLayoutEffect
-   useReducer 
-   useFormStatus & useActionState
-   useContext
-   useImperativeHandle
-   useSyncExternalStore
-   useTransition & startTransition
-   useDeferredValue
+### Medium:-
+How virtual dom improves perfomance?  
+Hooks, What are the hooks you have used so far?  
+   useState  
+   useEffect  
+   useRef  
+   useCallback  
+   useMemo  
+   useLayoutEffect  
+   useReducer   
+   useFormStatus & useActionState  
+   useContext  
+   useImperativeHandle  
+   useSyncExternalStore  
+   useTransition & startTransition  
+   useDeferredValue 
 
 
    useEffect vs useLayoutEffect
@@ -30,37 +30,48 @@ Hooks, What are the hooks you have used so far?
    | Example                 | Fetching API data, setting timers               | Positioning tooltips based on element size                     |
 
 
-Special functions
-   use
-      - used to read the value of a Promise or context.
-      - we can use anywhere ..inside loops or conditional blocks
+### Special functions
+   use  
+      - used to read the value of a Promise or context.  
+      - we can use anywhere ..inside loops or conditional blocks  
 
-   startTransition
-   memo
-   lazy
-   createContext
+   startTransition  
+   memo  
+   lazy  
+   createContext  
    
-e.currentTarget vs e.target ?
+e.currentTarget vs e.target ?  
+   - e.target: Refers to the actual element that triggered the event.
+   - e.currentTarget: Refers to the element the event listener is attached to.
+   - ```js
+        <ul onClick={(e) => console.log(e.target.textContent, e.currentTarget.tagName)}>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Cherry</li>
+         </ul>
 
-Advantage of functional component? over class based components ?
+     ```
+     when click on Banana, then target is <li>(banana) but currentTarget is <ul>
 
-What HOC ( Higher Order Component )?
+Advantage of functional component? over class based components ?  
 
-why we have to use useState / state instead of normal variables?
+What HOC ( Higher Order Component )?  
 
-useMemo, useCallback, useReducer, useRef
+why we have to use useState / state instead of normal variables?  
 
-customHooks? wht we need? example any?
+useMemo, useCallback, useReducer, useRef  
 
-What are actions ?  How they are dufferent from normal functions?
-    -Functions called in startTransition are called “Actions”. 
+customHooks? wht we need? example any?  
+
+What are actions ?  How they are dufferent from normal functions?  
+    -Functions called in startTransition are called “Actions”.   
 
 
-How do you handle click event outside one component?
+How do you handle click event outside one component?  
 
 How to optimze react app?
 
-lazy vs suspense?
+lazy & suspense?
 
 How are you handling errors in the react app?
 

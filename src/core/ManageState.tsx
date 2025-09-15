@@ -36,7 +36,7 @@ export default function ManageState() {
                 {/* these are two different statements */}
                 {fancy && <Counter fancery={true} /> }{!fancy && <Counter fancery={false} />}
 
-                {/* different component at the same position resets the state ( wrapped with div ) */}
+                {/* different component at the same position resets the state ( wrapped with div to make different component ) */}
                 {fancy ? <Counter fancery={true} /> : <div><Counter fancery={false} /></div> }
 
                 <div className="w-full flex flex-row gap-4 px-4">

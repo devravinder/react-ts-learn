@@ -24,7 +24,7 @@ import Q3 from './interview/Q3'
 export default function App() {
   return (
     <div>
-      <Q3/>
+      <ResetState/>
     </div>
   )
 }
