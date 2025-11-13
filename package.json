@@ -1,0 +1,17 @@
+{
+  "name": "rare-dev-shadcn-registry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "serve -p 7000 -d .",
+    "build": "shadcn build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "shadcn": "^3.5.0",
+    "serve": "^14.2.5"
+  }
+}
