@@ -1,0 +1,7 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "rare-dev",
+  "homepage": "http://localhost:7000",
+  "items": [
+  ]
+}
