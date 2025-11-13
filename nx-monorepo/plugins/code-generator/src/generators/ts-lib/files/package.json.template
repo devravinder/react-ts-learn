@@ -1,0 +1,42 @@
+{
+  "name": "@<%= scope %>/<%= name %>",
+  "private": <%= private %>,
+  "description": "<%= description %>",
+  "version": "0.0.0",
+  "author": "<%= author %>",
+  "license": "",
+  "keywords": <%- JSON.stringify(keywords, null, 2) %>,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  <% if (hasCjs) { %>
+  "main": "dist/index.js",
+  <% } %>
+
+  <% if (hasEs) { %>
+  "type": "module",
+  "module": "dist/index.mjs",
+  <% } %>
+  
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "clean": "npx del-cli dist",
+    "build": " npm run clean && tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "del-cli": "^6.0.0",
+    "typescript": "~5.6.2",
+    "vite": "^5.4.10",
+    "vite-plugin-dts": "^4.3.0"
+  }
+}
