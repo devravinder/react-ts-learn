@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "pnpm dlx serve -p 7000",
-    "deploy": "gh-pages"
+    "deploy": "gh-pages -d ."
   },
   "keywords": [],
   "author": "",
