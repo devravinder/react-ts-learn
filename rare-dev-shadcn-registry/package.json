@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "module": "type",
   "scripts": {
-    "dev": "serve -p 7000 -d public",
-    "build": "shadcn build"
+    "generateIndex":"node --no-warnings indexGenerator.js",
+    "dev": "serve -p 7000 -d ./public",
+    "build": "shadcn build --output ./public",
+    "b:g":"pnpm run build && pnpm run generateIndex"
   },
   "keywords": [],
   "author": "",

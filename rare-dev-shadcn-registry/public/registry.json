@@ -10,7 +10,7 @@
       "description": "A simple hello world component.",
       "files": [
         {
-          "path": "registry/default/HelloWorld.tsx",
+          "path": "registry/components/HelloWorld.tsx",
           "type": "registry:component"
         }
       ]

@@ -1,12 +1,12 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-  "name": "hello-world",
+  "name": "HelloWorld",
   "type": "registry:block",
   "title": "Hello World",
   "description": "A simple hello world component.",
   "files": [
     {
-      "path": "registry/default/HelloWorld.tsx",
+      "path": "registry/components/HelloWorld.tsx",
       "content": "export default function HelloWorld() {\n  return (\n    <div>HelloWorld</div>\n  )\n}\n",
       "type": "registry:component"
     }
