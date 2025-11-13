@@ -1,18 +1,15 @@
 {
   "name": "rare-dev-shadcn-registry",
   "version": "1.0.0",
-  "description": "shadcn registry",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "pnpm dlx serve -d ./src -p 7000",
-    "deploy": "gh-pages -d rare-dev-shadcn-registry/src -b rare-dev-shadcn-registry"
+    "dev": "serve -p 7000 -d src"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.22.0",
-  "devDependencies": {
-    "gh-pages": "^6.3.0",
+  "dependencies": {
     "serve": "^14.2.5"
   }
 }
