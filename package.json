@@ -4,7 +4,7 @@
   "description": "React TS Learn",
   "main": "index.js",
   "scripts": {
-    "d:registry": "gh-pages --dist rare-dev-shadcn-registry/public --branch rare-dev-shadcn-registry"
+    "d:registry": "gh-pages --dist CNAME=rare-dev.paravartech.com rare-dev-shadcn-registry/public --branch rare-dev-shadcn-registry"
   },
   "keywords": [],
   "author": "",
