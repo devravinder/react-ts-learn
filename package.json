@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "serve -p 7000 -d .",
+    "dev": "serve -p 7000 -d public",
     "build": "shadcn build"
   },
   "keywords": [],

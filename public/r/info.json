@@ -1,0 +1,15 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "info",
+  "type": "registry:file",
+  "title": "Info File",
+  "description": "Information file",
+  "files": [
+    {
+      "path": "registry/util/info.ts",
+      "content": "console.log(\"hello\")",
+      "type": "registry:file",
+      "target": "~/util/info.ts"
+    }
+  ]
+}
