@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "pnpm dlx serve -d ./src -p 7000",
-    "deploy": "gh-pages -d ./src -b rare-dev-shadcn-registry"
+    "deploy": "gh-pages -d rare-dev-shadcn-registry/src -b rare-dev-shadcn-registry"
   },
   "keywords": [],
   "author": "",
