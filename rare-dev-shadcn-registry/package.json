@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "serve -p 7000 -d src"
+    "dev": "serve -p 7000 -d public",
+    "build": "shadcn build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
+    "shadcn": "^3.5.0",
     "serve": "^14.2.5"
   }
 }

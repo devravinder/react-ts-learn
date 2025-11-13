@@ -1,0 +1,32 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "rare-dev",
+  "homepage": "http://localhost:7000",
+  "items": [
+    {
+      "name": "HelloWorld",
+      "type": "registry:block",
+      "title": "Hello World",
+      "description": "A simple hello world component.",
+      "files": [
+        {
+          "path": "registry/default/HelloWorld.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "info",
+      "type": "registry:file",
+      "title": "Info File",
+      "description": "Information file",
+      "files": [
+        {
+          "path": "registry/util/info.ts",
+          "type": "registry:file",
+          "target": "~/util/info.ts"
+        }
+      ]
+    }
+  ]
+}
