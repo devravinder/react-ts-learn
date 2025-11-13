@@ -13,3 +13,7 @@ Custom Shadcn registry
 ## To deploy to Github pages
 
 - `pnpm run d:registry` from the root folder of the repo
+
+## Issues
+
+- Still gh-pages is publishing all the dot files
