@@ -4,8 +4,8 @@
   "description": "shadcn registry",
   "main": "index.js",
   "scripts": {
-    "dev": "pnpm dlx serve -p 7000",
-    "deploy": "gh-pages -d ."
+    "dev": "pnpm dlx serve -d src -p 7000",
+    "deploy": "gh-pages -d src -b rare-dev-shadcn-registry"
   },
   "keywords": [],
   "author": "",
