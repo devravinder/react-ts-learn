@@ -5,9 +5,9 @@
   "main": "index.js",
   "module": "type",
   "scripts": {
-    "generateIndex":"node --no-warnings indexGenerator.js",
     "dev": "serve -p 7000 -d ./public",
     "build": "shadcn build --output ./public",
+    "generateIndex":"node --no-warnings indexGenerator.js",
     "b:g":"pnpm run build && pnpm run generateIndex"
   },
   "keywords": [],
