@@ -10,3 +10,12 @@ Every folder is a seperate package/project
 ## Rules
 
 - don't install packages in root folder, unless mandatory
+
+## Partial Clone
+
+1. use git sparse-checkout or
+2. use [gitc](https://www.npmjs.com/package/@rare-dev/gitc) `recomenneded`
+
+   ```bash
+    gitc https://github.com/devravinder/react-ts-learn/tree/master/nx-monorepo/apps/react-tiptop-rte
+   ```
