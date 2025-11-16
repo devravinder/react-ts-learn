@@ -16,6 +16,18 @@
       ]
     },
     {
+      "name": "useTheme",
+      "type": "registry:block",
+      "title": "Use Theme",
+      "description": "Theme provider context & hook",
+      "files": [
+        {
+          "path": "registry/hooks/useTheme.tsx",
+          "type": "registry:hook"
+        }
+      ]
+    },
+    {
       "name": "info",
       "type": "registry:file",
       "title": "Info File",
