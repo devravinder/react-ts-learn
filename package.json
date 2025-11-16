@@ -4,13 +4,11 @@
   "description": "React TS Learn",
   "main": "index.js",
   "scripts": {
-    "d:registry": "gh-pages --cname=rare-dev.paravartech.com --dist rare-dev-shadcn-registry/public --branch rare-dev-shadcn-registry"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.22.0",
   "devDependencies": {
-    "gh-pages": "^6.3.0"
   }
 }
